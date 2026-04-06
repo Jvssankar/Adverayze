@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const BASE = import.meta.env.VITE_API_URL || 'http://localhost:5000';
+const BASE = import.meta.env.VITE_API_URL || 'https://adverayze.onrender.com';
 const API = `${BASE}/api/messages`;
 
 export const fetchMessages = (username) =>
