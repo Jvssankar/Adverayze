@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const BASE = import.meta.env.VITE_API_URL || 'https://adverayze.onrender.com';
-const API = `${BASE}/api/messages`;
+const API = "https://adverayze.onrender.com/api/messages";
 
 export const fetchMessages = (username) =>
   axios.get(`${API}?username=${username}`);
