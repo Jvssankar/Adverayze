@@ -3,8 +3,7 @@
 A real-time chat application built for the Adverayze technical assignment.
 
 ## Live Links
-- **Frontend:** https://your-app.vercel.app
-- **Backend:** https://your-api.onrender.com
+- **Live application** - https://adverayze.netlify.app/
 
 ## Tech Stack
 - **Frontend:** React + Vite, Socket.io-client
